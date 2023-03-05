@@ -1,6 +1,6 @@
 {
   "name": "create-nostr",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "create nostr repo",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nip17/create-nostr.git"
+  },
+  "bin": {
+    "create-nostr": "bin/create-nostr"
   },
   "keywords": [
     "nostr"
